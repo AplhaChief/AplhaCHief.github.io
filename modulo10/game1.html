@@ -18,7 +18,7 @@
 <body>
     <!--número de vidas-->
     <div class="container">
-        <p class="texto">¡Reto 1: Selecciona la conjugación correcta del verbo en el modo subjuntivo presente!</p>
+        <p class="texto">¡Reto 1: Conjuga el imperativo a partir del sujeto!</p>
         <div class="info">
             <p style="color: #D67D7D;">Vidas</p>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: rgba(214, 125, 125, 1); " class="heart">
@@ -43,95 +43,35 @@
 
     <div class="oraciones">
         <p>
-            1. Es importante que tú
-            <span class="contenedor" data-word="1">
-            </span>
-            (estudies/estudia/estudiar) para el examen.
+            1. <span class="contenedor" data-word="2"></span> (hablar) más despacio, por favor. (Sujeto tu)
         </p>
-    </div>
-    <!--Se indica cuál es la respuesta correcta-->
-    <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">estudies</button>
-        <button class="boton" data-word="2">estudia</button>
-        <button class="boton" data-word="3">estudiar</button>
-    </div>
-
-    <div class="oraciones">
         <p>
-            2. Espero que ellos
-            <span class="contenedor" data-word="2">
-            </span>
-            (vienen/vengan/venir) a la fiesta.
+            2. No <span class="contenedor" data-word="1"></span> (comer) tanta azúcar. (Sujeto usted)
         </p>
-    </div>
-    <!--Se indica cuál es la respuesta correcta-->
-    <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">vienen</button>
-        <button class="boton" data-word="2">vengan</button>
-        <button class="boton" data-word="3">venir</button>
-    </div>
-
-    <div class="oraciones">
         <p>
-            3. Ojalá que nosotros
-            <span class="contenedor" data-word="3">
-            </span>
-            (tener/tenemos/tengan) suerte.
+            3. <span class="contenedor" data-word="2"></span> (cerrar) la puerta al salir. (Sujeto usted)
         </p>
-    </div>
-    <!--Se indica cuál es la respuesta correcta-->
-    <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">tener</button>
-        <button class="boton" data-word="2">tenemos</button>
-        <button class="boton" data-word="3">tengamos</button>
-    </div>
-
-    <div class="oraciones">
         <p>
-            4. Es necesario que ella
-            <span class="contenedor" data-word="2">
-            </span>
-            (hablar/hable/habla) con el profesor.
+            4. No <span class="contenedor" data-word="3"></span> (olvidar) tus llaves. (Sujeto tu)
         </p>
-    </div>
-    <!--Se indica cuál es la respuesta correcta-->
-    <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">hablar</button>
-        <button class="boton" data-word="2">hable</button>
-        <button class="boton" data-word="3">habla</button>
-    </div>
-
-    <div class="oraciones">
         <p>
-            5. Quiero que tú
-            <span class="contenedor" data-word="1">
-            </span>
-            (hagas/haces/hacer) la tarea ahora.
+            5. <span class="contenedor" data-word="2"></span> (escuchar) a tu maestro. (Sujeto tu)
         </p>
-    </div>
-    <!--Se indica cuál es la respuesta correcta-->
-    <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">hagas</button>
-        <button class="boton" data-word="2">haces</button>
-        <button class="boton" data-word="3">hacer</button>
-    </div>
-
-    <div class="oraciones">
         <p>
-            6. Es posible que ellos
-            <span class="contenedor" data-word="3">
-            </span>
-            (ir/van/vayan) al cine esta noche.
+            6. No <span class="contenedor" data-word="4"></span> (fumar) aquí, por favor. (Sujeto usted)
         </p>
     </div>
-    <!--Se indica cuál es la respuesta correcta-->
+
     <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">ir</button>
-        <button class="boton" data-word="2">van</button>
-        <button class="boton" data-word="3">vayan</button>
+        <button class="boton" data-word="1">coma</button>
+        <button class="boton" data-word="2">Escucha</button>
+        <button class="boton" data-word="3">olvides</button>
+        <button class="boton" data-word="2">Habla</button>
+        <button class="boton" data-word="4">fume</button>
+        <button class="boton" data-word="2">Cierre</button>        
     </div>
 
-    <!-- Modal -->
+        <!-- Modal -->
     <div id="gameOverModal" class="modal">
         <div class="modal-content">
             <h2 style="text-align: center; font-family: 'Freeman', sans-serif;">GAME OVER</h2>
@@ -149,39 +89,38 @@
             <div class="cerrar-container">
                 <span class="cerrar">&times;</span>
             </div>
-            <h2>Gramática: Subjuntivo presente</h2>
+            <h2>Gramática: Imperativo</h2>
             <p>
-                Usamos el presente de subjuntivo para expresar acciones en futuro, recomendaciones,
-                emociones, deseos, entre otros.
-            </p>
+                El modo imperativo en español se utiliza para expresar órdenes, 
+                solicitudes, consejos o instrucciones directas. Este modo solo 
+                se usa en las formas de la segunda persona (tu y usted).
+            </p>           
             <p>
-                Formas de conjugar el verbo TRABAJAR y COMER
+                Ver ejemplo conjugación verbo TRABAJAR, COMER y ESCRIBIR.
             </p>
-            <div class="lado">
-                <div class="izquierda">
-                    <p>Yo</p>
-                    <p>Tú</p>
-                    <p>Él/ ella/ usted</p>
-                    <p>Nosotros/ as</p>
-                    <p>Ellos/ ella/ ustedes</p>
-                </div>
-                <div class="izquierda">
-                    <p>trabaje</p>
-                    <p>trabajes</p>
-                    <p>trabaje</p>
-                    <p>trabajemos</p>
-                    <p>trabajen</p>
-                </div>
-                <div class="izquierda">
-                    <p>coma</p>
-                    <p>comas</p>
-                    <p>coma</p>
-                    <p>comamos</p>
-                    <p>comen</p>
-                </div>
-                <div class="linea1"></div>
-                <div class="linea2"></div>
-            </div>
+
+            <table class="tabla-se">
+                <tr>
+                    <td>Verbos</td>
+                    <td>Sujeto "Tú"</td>   
+                    <td>Sujeto "Usted"</td>
+                </tr>
+                <tr>
+                    <td>Trabajar</td>
+                    <td>Trabaja/ No trabajes</td>
+                    <td>Trabaje/ No trabaje</td>
+                </tr>
+                <tr>
+                    <td>Comer</td>
+                    <td>Come/ No comas</td>
+                    <td>Coma/ No coma</td>
+                </tr>
+                <tr>
+                    <td>Escribir</td>
+                    <td>Escribe/ No escribas</td>
+                    <td>Escriba/ No escriba</td>
+                </tr>                
+            </table>            
         </div>
     </div>
 

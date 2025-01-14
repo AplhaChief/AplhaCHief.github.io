@@ -55,11 +55,10 @@ body {
 }
 
 .oraciones {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 5%;
-    /*margin-right: auto;
-    width: 80%; /* Asegura que las oraciones tengan un ancho máximo */
-    /*text-align: left; /* Mantiene el texto alineado a la izquierda */
+    margin-right: auto;
+    text-align: left; /* Mantiene el texto alineado a la izquierda */
 }
 
 .oraciones p {
@@ -114,7 +113,8 @@ body {
 }
 
 .botones {
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-left: 5%;
     display: flex;
     gap: 4px;
     flex-direction: row;
@@ -124,7 +124,7 @@ body {
 
 .botones button {
     margin-bottom: 15px;
-    margin-right: 4px;
+    margin-right: 2%;
     border-radius: 4cap;
     padding: 0px 20px;
     font-size: 20px;
@@ -502,7 +502,9 @@ body {
 
 
     .oraciones {
-        margin-left: 15%;
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
         float: left;
     }
 
@@ -522,6 +524,7 @@ body {
 
     .botones button {
         margin-bottom: 15px;
+        margin-right: 15px;
         font-size: 18px;
     }
 
@@ -602,6 +605,7 @@ body {
 
     .botones button {
         margin-bottom: 15px;
+        font-size: 20px;
     }
 
     .img {

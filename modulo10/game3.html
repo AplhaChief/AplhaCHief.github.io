@@ -18,7 +18,7 @@
 <body>
     <!--número de vidas-->
     <div class="container">
-        <p class="texto">¡Reto 3: Selecciona la expresión correcta (por/para)!</p>
+        <p class="texto">¡Reto 3: Selecciona la conjugación correcta del imperativo (objeto indirecto o reflexivos)! </p>
         <div class="info">
             <p style="color: #D67D7D;">Vidas</p>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: rgba(214, 125, 125, 1); " class="heart">
@@ -43,47 +43,43 @@
 
     <div class="oraciones">
         <p>
-            María está estudiando
-            <span class="contenedor" data-word="1">
-            </span> ser doctora.
-            Ella se levanta temprano todos los días
-            <span class="contenedor" data-word="1">
-            </span> ir a la universidad.
-
+            1. <span class="contenedor" data-word="1"></span> (dar) el libro a Juan.
         </p>
-    </div>
-
-    <div class="oraciones">
         <p>
-            A veces, tiene que pasar
-            <span class="contenedor" data-word="2">
-            </span> el parque
-            <span class="contenedor" data-word="1">
-            </span> llegar a tiempo a sus clases.
-
+            2. <span class="contenedor" data-word="2"></span> (enviar) el correo a la profesora.
         </p>
-    </div>
-
-    <div class="oraciones">
         <p>
-            Estudia mucho
-            <span class="contenedor" data-word="1">
-            </span> obtener buenas calificaciones y
-            <span class="contenedor" data-word="1">
-            </span> poder ayudar a las personas en el futuro. Sus amigos la admiran
-            <span class="contenedor" data-word="2">
-            </span> su dedicación y esfuerzo.
+            3. <span class="contenedor" data-word="3"></span> (decir) la verdad a tus padres.
+        </p>
+        <p>
+            4. <span class="contenedor" data-word="4"></span> (levantarase) temprano mañana.
+        </p>
+        <p>
+            5. <span class="contenedor" data-word="5"></span> (sentarse) aquí, por favor.
+        </p>
+        <p>
+            6. <span class="contenedor" data-word="6"></span> (prepararse) para la reunión.
         </p>
     </div>
-    <!--Se indica cuál es la respuesta correcta-->
+
     <div class="botones" id="botones-container">
-        <button class="boton" data-word="1">para</button>
-        <button class="boton" data-word="1">para</button>
-        <button class="boton" data-word="2">por</button>
-        <button class="boton" data-word="1">para</button>
-        <button class="boton" data-word="1">para</button>
-        <button class="boton" data-word="1">para</button>
-        <button class="boton" data-word="2">por</button>
+        <button class="boton" data-word="2">Envíele</button>
+        <button class="boton" data-word="5">Siéntate</button>
+        <button class="boton" data-word="1">Dale</button>
+        <button class="boton" data-word="6">Prepárese</button>
+        <button class="boton" data-word="4">Levántese</button>
+        <button class="boton" data-word="3">Diles</button>        
+    </div>
+
+        <!-- Modal -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2 style="text-align: center; font-family: 'Freeman', sans-serif;">GAME OVER</h2>
+            <div class="modal-buttons">
+                <button id="reintentarBtn">Reintentar</button>
+                <button id="salirBtn">Salir</button>
+            </div>
+        </div>
     </div>
 
     <!-- Cuadro de repaso que aparece al ingresar al juego -->
@@ -93,34 +89,31 @@
             <div class="cerrar-container">
                 <span class="cerrar">&times;</span>
             </div>
-            <h2>Expresión: Por/Para</h2>
+            <h2>Gramática: Imperativo con pronombres objeto indirecto o reflexivos</h2>
             <p>
-                Usamos "por" para hablar del precio de las cosas.
-                También para indicar un lugar no específico.
-                Acción inminente.
-            </p>
+                El imperativo con pronombres objeto indirecto o reflexivos se refiere al 
+                uso del modo imperativo combinado con pronombres que indican el destinatario
+                de la acción (objeto indirecto) o cuando el sujeto realiza y recibe la acción
+                al mismo tiempo (reflexivo).
+            </p>           
             <p>
-                Usamos "para" cuando queremos expresar nuestro punto de vista.
-                También para indicar el lugar final.
-            </p>
-            <p>
-                Ejemplos de "por" y "para".
+                Ver los siguientes ejemplos.
             </p>
 
             <table class="tabla-por">
                 <tr>
-                    <td>POR</td>
-                    <td>PARA</td>
+                    <td>Imperativo + Objeto indirecto</td>               
+                    <td>Imperativo + Reflexivo</td>
                 </tr>
                 <tr>
-                    <td>Pagué 25 euros por este vino.</td>
-                    <td>Para mí, el vino chileno es el mejor.</td>
+                    <td>Escríbele una carta</td>
+                    <td>Llévame el informe.</td>                    
                 </tr>
                 <tr>
-                    <td>Siempre camino por la playa con mis perros.</td>
-                    <td>Yo iré para el cine. Hoy estrenan una nueva película.</td>
-                </tr>                
-            </table>
+                    <td>Escríbete una nota.</td>
+                    <td>Llévate el libro.</td>
+                </tr>                           
+            </table>            
         </div>
     </div>
 

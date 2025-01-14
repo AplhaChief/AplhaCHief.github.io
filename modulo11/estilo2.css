@@ -55,16 +55,15 @@ body {
 }
 
 .oraciones {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 5%;
-    /*margin-right: auto;
-    width: 80%; /* Asegura que las oraciones tengan un ancho máximo */
-    /*text-align: left; /* Mantiene el texto alineado a la izquierda */
+    margin-right: auto;    
+    text-align: left; /* Mantiene el texto alineado a la izquierda */
 }
 
 .oraciones p {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .selected {
@@ -88,7 +87,7 @@ body {
 .contenedor {
     display: inline-block;
     vertical-align: middle;
-    width: 200px;
+    width: 240px;
     height: 40px;
     border: 1px solid #000;
     margin: 0 5px;
@@ -97,6 +96,8 @@ body {
     background-color: white;
     box-shadow: 0px 0px 3px;
     cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
@@ -106,7 +107,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 240px;
     height: 40px;
     border-radius: 2cap;
     background-color: #cdf68f;
@@ -114,7 +115,8 @@ body {
 }
 
 .botones {
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-left: 5%;
     display: flex;
     gap: 4px;
     flex-direction: row;
@@ -124,12 +126,12 @@ body {
 
 .botones button {
     margin-bottom: 15px;
-    margin-right: 4px;
+    margin-right: 2%;
     border-radius: 4cap;
     padding: 0px 20px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
-    width: 200px;
+    width: 240px;
     height: 40px;    
     box-shadow: 0px 0px 10px rgba(6, 101, 202, 0.5);
     background-color: rgb(211, 229, 245);
@@ -449,7 +451,7 @@ body {
         align-items: flex-start;
     }
     .izquierda, .derecha {
-        width: 100%;
+        width: auto;
     }
 }
 
@@ -511,17 +513,17 @@ body {
     }
 
     .botones {
-        margin-top: 50px;
-        margin-right: 10%;
-        margin-left: 15%;
+        margin-top: 65px;
         float: right;
+        margin-right: 7%;
         flex-direction: row;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
 
     .botones button {
-        margin-bottom: 15px;
+        margin-bottom: 15px;        
+        padding: 0px 5px;
         font-size: 18px;
     }
 
@@ -585,7 +587,9 @@ body {
     }
 
     .oraciones {
-        margin-left: 15%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 9%;
         float: left;
     }
 
@@ -594,14 +598,15 @@ body {
     }
 
     .botones {
-        margin-top: 65px;
-        margin-right: 15%;
+        margin-top: 80px;
+        margin-right: 10%;
         float: right;
         flex-direction: column;
     }
 
     .botones button {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+        font-size: 20px;
     }
 
     .img {
