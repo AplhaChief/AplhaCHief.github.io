@@ -56,8 +56,10 @@ body {
 }
 
 .oraciones {
-    margin-top: 40px;   
-    margin-left: 18%;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: auto;
+    text-align: left; /* Mantiene el texto alineado a la izquierda */
 }
 
 .oraciones p {
@@ -104,7 +106,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-52.8%, -61%);
+    transform: translate(-50%, -50%);
     width: 200px;
     height: 40px;
     border-radius: 2cap;
@@ -115,8 +117,7 @@ body {
 .botones {
     margin-top: 40px;    
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: row;    
     flex-wrap: wrap;
 }
 
@@ -516,13 +517,15 @@ ul li {
 
     .botones {
         margin-top: 50px;
-        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: row;
         float: right;
-        margin-right: 18%;
+        flex-wrap: wrap;
     }
 
     .botones button {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         margin-right: 15px;
         padding: 0px 5px;
         font-size: 18px;
@@ -597,6 +600,7 @@ ul li {
     }
 
     .oraciones {
+        margin-top: 50px;
         margin-left: 10%;
         float: left;
     }
@@ -606,7 +610,7 @@ ul li {
     }
 
     .botones {
-        margin-top: 50px;
+        margin-top: 65px;
         margin-right: 8%;
         float: right;
         flex-direction: column;

@@ -61,7 +61,7 @@ body {
 }
 
 .oraciones p {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
@@ -104,7 +104,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-52.5%, -62%);
+    transform: translate(-50%, -50%);
     width: 150px;
     height: 40px;
     border-radius: 2cap;
@@ -538,7 +538,6 @@ ul li {
         padding: 10px;
         overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura */
     }
-
 }
 
 @media (min-width: 1310px) {
@@ -605,14 +604,14 @@ ul li {
     }
 
     .botones {
-        margin-top: 50px;
+        margin-top: 65px;
         margin-right: 8%;
         float: right;
         flex-direction: column;
     }
 
     .botones button {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .img {
